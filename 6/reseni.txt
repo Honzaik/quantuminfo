@@ -1,0 +1,5 @@
+N z předpokladů je = p_1*...*p_n kde p_i != p_j
+a p_i = 2^e_i+1
+máme tedy omezení na e_i < log_2(N)
+=> testujeme GCD(2^e_i+1,N) != 1?
+=> log(N)*n^2 (kandidáti * GCD)
