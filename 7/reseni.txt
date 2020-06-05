@@ -1,0 +1,2 @@
+|0> x |0> x |0> => (H x id x id) 1/sqrt(2) * (|0>+|1>) x |0> x |0> = 1/sqrt(2) *(|00> + |10>) x |0> => CNOT x id => 1/sqrt(2)*(|00>+|11>) x |0> = 1/sqrt(2) * (|000>+|110) => CCNOT => 1/sqrt(2)*(|000>+|111>) (propletený stav protože)
+(a|0>+b|1>)x(c|0>+d|1>)x()(e|0>+f|1>)=ace|0>+.....+bdf|111> => a,c,e,b,d,f != 0 ale aby acf = 0 musí být aspon jedno = 0 což nejde. spor => propleté

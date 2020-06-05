@@ -1,0 +1,5 @@
+X = pauliho 
+(0 1 \\ 1 0)
+phi = (2-i, i)
+phi' (normalizovane) = 1/sqrt(6)(2-i,i)
+E(X) na phi = <phi'|X|phi'> = 1/6 (2+i,-i)^T X (2-i,i) = 1/6(2+i,-i)^T (i, 2-i) = 1/6(-2)=-1/3
