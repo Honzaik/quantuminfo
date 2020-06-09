@@ -43,7 +43,7 @@ se zbavíme prostředního CNOT, který je v jiném směru. Výsledný obvod je 
 \section{}
 Řešení je v principu spočítat AND prvního a druhého qubitu samostatně a zároveň stejně třetího a čtvrtého. A spočítat výsledný AND těchto výsledků, který je ekvivalentní ANDu všech 4 \uv{najednou}.
 
-Použijeme tedy 3x CNOT. Ten ale potřebujeme rozložit pomocí dvoukubitových bran. Použijeme postup ve skriptech, jak rozložit dvoukontrolovaný jednokubitový operátor na jednokontrolované jednokubitové. Použijeme tedy matici $X$ a spočítáme její odmocninu $\sqrt{X}$ a její hermitovsky sdruženou $\sqrt{X}^{-1}$. Matice jsou:
+Použijeme tedy 3x CCNOT. Ten ale potřebujeme rozložit pomocí dvoukubitových bran. Použijeme postup ve skriptech, jak rozložit dvoukontrolovaný jednokubitový operátor na jednokontrolované jednokubitové. Použijeme tedy matici $X$ a spočítáme její odmocninu $\sqrt{X}$ a její hermitovsky sdruženou $\sqrt{X}^{-1}$. Matice jsou:
 \begin{gather*}
 X = \begin{pmatrix}
 0 & 1\\
